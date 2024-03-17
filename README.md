@@ -25,4 +25,6 @@ models:
         val_scale_classifiers: py files and joblib files to validate test accuracy for scale models
 
 Preprocessing_and_EDA:
-    
+
+        genre_and_scale_preprocessing: preprocessing piplines for genre and scale
+        year_prediction: preprocessing pipelines for year
