@@ -22,7 +22,6 @@ from sklearn.metrics import accuracy_score
 # In[17]:
 
 
-
 scale_RF_model = "RF_scale.joblib"
 test_set_all_features = pd.read_csv("test_set_all_features_RS_42.csv")
 
