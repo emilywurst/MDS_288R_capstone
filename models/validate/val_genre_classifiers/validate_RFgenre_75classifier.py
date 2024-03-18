@@ -6,7 +6,7 @@
 
 from joblib import load
 from joblib import dump
-
+import zipfile
 import pandas as pd
 import numpy as np
 
@@ -15,7 +15,12 @@ from sklearn.metrics import accuracy_score
 
 from sklearn.preprocessing import StandardScaler
 
+with zipfile.ZipFile('RF_genre.zip', 'r') as zip_ref:
+    zip_ref.extractall('')
 
+
+with zipfile.ZipFile('test_set_all_features_RS_42.zip', 'r') as zip_ref:
+    zip_ref.extractall('')
 # In[23]:
 
 
